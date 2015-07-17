@@ -223,7 +223,8 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  border-top: solid 1px #eff0f1;
+  float: none;  }
 
 .site-footer-owner {
   display: block;
@@ -243,3 +244,33 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+    
+.person h2 {  
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;  }
+    
+.circle-img {
+    width:80px; 
+    height:80px; 
+    border-radius:50%; 
+    overflow:hidden;  
+    float=left;}
+    
+.person { 
+    width: 200px;
+    height:400px;  
+    float: left;}
+    
+.persons { 
+    height:1000px;
+    float:none;
+}
+
+.person h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: rgb(21, 103, 137); }
