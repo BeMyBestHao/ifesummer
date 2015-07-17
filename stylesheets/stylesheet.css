@@ -223,8 +223,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1;
-  float: none;  }
+  border-top: solid 1px #eff0f1;  }
 
 .site-footer-owner {
   display: block;
@@ -261,12 +260,12 @@ a {
     
 .person { 
     width: 200px;
+    display:inline-block;
     height:400px;  
-    float: left;}
+}
     
 .persons { 
     height:1000px;
-    float:none;
 }
 
 .person h3 {
